@@ -1,0 +1,392 @@
+{
+  "basic": {
+    "name": "Section 1: Basic F2L",
+    "description": "41 basic cases. Most are solved intuitively.",
+    "cases": {
+      "Section 1A": [
+        {
+          "id": 1,
+          "scramble": [
+            "U2 R' U2 R' U2 R U' F2 R2 F2 U' F2 R2 F2 U",
+            "U' R D B U2 B' D' R' B2 L2 U' R2 D F2 L2 D' R2"
+          ],
+          "imgScramble": "U2 R' U2 R' U2 R U' F2 R2 F2 U' F2 R2 F2 U'",
+          "algs": ["U2 (R U R') U (R U' R')", "y F R U2 R' F'"],
+          "group": "White Sticker Faces Up"
+        },
+        {
+          "id": 2,
+          "scramble": [
+            "U' F' R2 U2 R2 F U L2 D B2 D2 B2 D L2 U",
+            "F' R2 U2 R2 F U L2 U' L2 D F2 D2 F2 D"
+          ],
+          "imgScramble": "U' F' R2 U2 R2 F U L2 D B2 D2 B2 D L2 U'",
+          "algs": ["y U2 (L' U' L) U' (L' U L)", "F' L' U2 L F"],
+          "group": "White Sticker Faces Up"
+        },
+        {
+          "id": 3,
+          "scramble": ["U2 R2 B' R' B U' R' U", "U R U R' U' R U2 R' U"],
+          "imgScramble": "U R U R' U' R U2 R' U'",
+          "algs": ["U (R U2 R') U (R U' R')"],
+          "group": "White Sticker Faces Up"
+        },
+        {
+          "id": 4,
+          "scramble": [
+            "D2 B L' D F' D' L B' U D2 R2 U2 F2 U' F2 D R2 D'",
+            "U2 F' U' F U F' U2 F"
+          ],
+          "imgScramble": "U2 F' U' F U F' U2 F U",
+          "algs": ["y U' (L' U2 L) U' (L' U L)"],
+          "group": "White Sticker Faces Up"
+        },
+        {
+          "id": 5,
+          "scramble": [
+            "U2 R2 U R' U R U2 R2 U",
+            "R2 U F2 U R' U R' U' R2 U R2 D2 B2 L2 D' B2 D'"
+          ],
+          "imgScramble": "U2 R2 U R' U R U2 R2 U2",
+          "algs": [
+            "U (R U' R') U' (R U' R' U R U' R')",
+            "U (F R' F' R) U (R U R')"
+          ],
+          "group": "White Sticker Faces Up"
+        },
+        {
+          "id": 6,
+          "scramble": [
+            "R2 U2 D R2 F D' F U2 R2 D R2 U2 F2 D' F2 U F2",
+            "D R2 U B' D B D2 F2 R2 U2 F2 U R2 U' F2 U'"
+          ],
+          "imgScramble": "D R2 U B' D B D2 F2 R2 U2 F2 U R2 U' F2 U2",
+          "algs": [
+            "y U' (L' U L) U (L' U L U' L' U L)",
+            "y U' (F' L F L') U' (L' U' L)"
+          ],
+          "group": "White Sticker Faces Up"
+        },
+        {
+          "id": 7,
+          "scramble": [
+            "U R2 B' R' B' D2 F2 L' U2 F2 D' B2 D' R2",
+            "U2 R2 B' R' B' D2 F2 L' U2 F2 D' B2 D' R2 U2"
+          ],
+          "imgScramble": "U2 R2 B' R' B' D2 F2 L' U2 F2 D' B2 D' R2 U",
+          "algs": ["(R U2 R') U' (R U R')"],
+          "group": "White Sticker Faces Up"
+        },
+        {
+          "id": 8,
+          "scramble": [
+            "U F' R U R B2 R F R L2 F2 U R2 B2 D' L2 D2 R2 F2",
+            "L2 U D R2 B U B' R2 F2 D2 L2 D L2 U' F2 L2 U"
+          ],
+          "imgScramble": "U F' R U R B2 R F R L2 F2 U R2 B2 D' L2 D2 R2 F2",
+          "algs": ["y (L' U2 L) U (L' U' L)"],
+          "group": "White Sticker Faces Up"
+        },
+        {
+          "id": 9,
+          "scramble": ["U R U' R' U2", "U2 R U' R'"],
+          "imgScramble": "U2 R U' R'",
+          "algs": ["(R U R')"],
+          "group": "Stickers on the U face are different"
+        },
+        {
+          "id": 10,
+          "scramble": ["U2 F' U F U2", "F' U F U'"],
+          "imgScramble": "F' U F",
+          "algs": ["y (L' U' L)"],
+          "group": "Stickers on the U face are different"
+        },
+        {
+          "id": 11,
+          "scramble": [
+            "U R U' R' U R U R'",
+            "U L F2 L' F' U2 F U F2 U F2 U' F2 U' F2"
+          ],
+          "imgScramble": "U R U' R' U R U R' U2",
+          "algs": ["U' (R U R') U (R U R')", "U2 (R U' R') U' (R U R')"],
+          "group": "Stickers on the U face are different"
+        },
+        {
+          "id": 12,
+          "scramble": [
+            "U B' R2 B R U2 R U' R2 U' R2 U R2 U2",
+            "B' R2 B R U2 R U' R2 U' R2 U R2 U2"
+          ],
+          "imgScramble": "B' R2 B R U2 R U' R2 U' R2 U R2 U2",
+          "algs": ["y U (L' U' L) U' (L' U' L)", "y U2 (L' U L) U (L' U' L)"],
+          "group": "Stickers on the U face are different"
+        },
+        {
+          "id": 13,
+          "scramble": [
+            "R2 U2 F2 D R D' R F2 U' F2 U F2 U' R2 F2",
+            "R2 U2 F2 D R D' R F2 U' F2 U F2 U' R2 F2 U2"
+          ],
+          "imgScramble": "R2 U2 F2 D R D' R F2 U' F2 U F2 U' R2 F2",
+          "algs": ["R' U2 R2 U R2' U R", "(R U' R') U (R U' R') U2 (R U' R')"],
+          "group": "Stickers on the U face are different"
+        },
+        {
+          "id": 14,
+          "scramble": ["F' U F U' R U2 R' U", "U2 F' U F U' R U2 R'"],
+          "imgScramble": "U2 F' U F U' R U2 R' U",
+          "algs": [
+            "y L U2 L2' U' L2 U' L'",
+            "y (L' U L) U' (L' U L) U2 (L' U L)"
+          ],
+          "group": "Stickers on the U face are different"
+        },
+        {
+          "id": 15,
+          "scramble": [
+            "R U' R D B' D' B2 U B R2 D2 L2 F2 D' L2 B2 U B2 D'",
+            "U R' U' R' U R2 U R' U F2 L2 B2 D' B2 L2 F2"
+          ],
+          "imgScramble": "U R' U' R' U R2 U R' U F2 L2 B2 D' B2 L2 F2 U'",
+          "algs": ["U' (R U' R') U (R U R')"],
+          "group": "Stickers on the U face are different"
+        },
+        {
+          "id": 16,
+          "scramble": [
+            "U R' D' L2 D R2 U R' D' F2 R2 U' L2 D B2 R2 U'",
+            "R U' R' U2 F' U' F U2"
+          ],
+          "imgScramble": "U R' D' L2 D R2 U R' D' F2 R2 U' L2 D B2 R2 U",
+          "algs": ["y U (L' U L) U' (L' U' L)"],
+          "group": "Stickers on the U face are different"
+        },
+        {
+          "id": 17,
+          "scramble": ["U R' L F R F' L' U2", "U' R' F R F'"],
+          "imgScramble": "U' R' F R F'",
+          "algs": ["y U' (L' U L)"],
+          "group": "Stickers on the U face are the same"
+        },
+        {
+          "id": 18,
+          "scramble": ["F R' F' R U2"],
+          "imgScramble": "F R' F' R",
+          "algs": ["U (R U' R')"],
+          "group": "Stickers on the U face are the same"
+        },
+        {
+          "id": 19,
+          "scramble": ["B2 U R2 D' F R2 F' D' L2 U F2 U L2 D R2 D"],
+          "imgScramble": "B2 U R2 D' F R2 F' D' L2 U F2 U L2 D R2 D",
+          "algs": ["y U (L' U2 L) U2 (L' U L)", "r' U2 R2 U R2' U r"],
+          "group": "Stickers on the U face are the same"
+        },
+        {
+          "id": 20,
+          "scramble": ["U2 L F R' U2 F R L F2 L2 U R2 B2 R2 B2 U2"],
+          "imgScramble": "U2 L F R' U2 F R L F2 L2 U R2 B2 R2 B2 U'",
+          "algs": ["U' (R U2 R') U2 (R U' R')", "y l U2 L2' U' L2 U' l'"],
+          "group": "Stickers on the U face are the same"
+        },
+        {
+          "id": 21,
+          "scramble": [
+            "U F2 U' L' U L F2 U",
+            "U R U2 D' R' D R' U' L2 F2 U' R2 U F2 D' L2 B2"
+          ],
+          "imgScramble": "U F2 U' L' U L F2",
+          "algs": ["U' (R U R') U2 (R U' R')", "y U l' U L U' L' U' l"],
+          "group": "Stickers on the U face are the same"
+        },
+        {
+          "id": 22,
+          "scramble": ["F' U' F U2 F' U F U2"],
+          "imgScramble": "F' U' F U2 F' U F U'",
+          "algs": ["y U (L' U' L) U2 (L' U L)", "U' r U' R' U R U r'"],
+          "group": "Stickers on the U face are the same"
+        },
+        {
+          "id": 23,
+          "scramble": [
+            "R L' B U2 B' R' U L' F2 L2 U2 L2 F2 L2 U2 F2 U2",
+            "R U' R' U2 F' U' F U2"
+          ],
+          "imgScramble": "R U' R' U2 F' U' F",
+          "algs": ["M U (L F' L') U' M'", "y (L' U L) y' U2 (R U R')"],
+          "group": "Stickers on the U face are the same"
+        },
+        {
+          "id": 24,
+          "scramble": ["U2 R U2 B U B' U R' U'", "U R U2 B U B' U R' U'"],
+          "imgScramble": "U R U2 B U B' U R'",
+          "algs": ["y M U' (R' F R) U M'", "(R U' R') y U2 (L' U' L)"],
+          "group": "Stickers on the U face are the same"
+        }
+      ],
+      "Section 1B": [
+        {
+          "id": 25,
+          "scramble": [
+            "F' U2 R2 U2 R2 F U L2 D B2 D2 B2 D L2 U",
+            "U' F' U2 R2 U2 R2 F U L2 D B2 D2 B2 D L2"
+          ],
+          "imgScramble": "U' F' U2 R2 U2 R2 F U L2 D B2 D2 B2 D L2 U2",
+          "algs": ["U (R U R') U2 (R U R')", "U' (R U2 R') U (R U R')"],
+          "group": "Edge in the slot"
+        },
+        {
+          "id": 26,
+          "scramble": [
+            "U2 R2 B R' B2 R B U' B2 U B2 U R2",
+            "U R U' L2 U R' F2 R2 D' B2 D R2 F2 U"
+          ],
+          "imgScramble": "U2 R2 B R' B2 R B U' B2 U B2 U R2 U",
+          "algs": ["y U' (L' U' L) U2 (L' U' L)", "y U (L' U2 L) U' (L' U' L)"],
+          "group": "Edge in the slot"
+        },
+        {
+          "id": 27,
+          "scramble": ["F R' F' R F' U F' L2 U' L2 U L2 D' L2 D F2"],
+          "imgScramble": "F R' F' R F' U F' L2 U' L2 U L2 D' L2 D F2 U",
+          "algs": ["U (F' U' F) U' (R U R')", "y U2 (L' U' L) (F' L F L')"],
+          "group": "Edge in the slot"
+        },
+        {
+          "id": 28,
+          "scramble": ["U R U' R B' R' B R' U", "U R U' R B' R' B R' U'"],
+          "imgScramble": "U R U' R B' R' B R' U",
+          "algs": ["y U' (F U F') U (L' U' L)", "U2 (R U R') (F R' F' R)"],
+          "group": "Edge in the slot"
+        },
+        {
+          "id": 29,
+          "scramble": [
+            "U R2 U R D' L2 D R B2 D' L2 U R2 F2 U2 D R2 U",
+            "R2 U R D' L2 D R B2 D' L2 U R2 F2 U2 D R2 U'"
+          ],
+          "imgScramble": "R2 U R D' L2 D R B2 D' L2 U R2 F2 U2 D R2 U2",
+          "algs": ["(U R U' R')3"],
+          "group": "Edge in the slot"
+        },
+        {
+          "id": 30,
+          "scramble": ["R U R' F R' F' R U"],
+          "imgScramble": "R U R' F R' F' R U",
+          "algs": ["U' (R' F R F') (R U' R')", "(R U' R') (F' U2 F)"],
+          "group": "Edge in the slot"
+        },
+        {
+          "id": 31,
+          "scramble": [
+            "U2 R2 D R' U R' D' F2 U F2 R2 U2 R2",
+            "R2 D R' U R' D' F2 U F2 R2 U2 R2"
+          ],
+          "imgScramble": "R2 D R' U R' D' F2 U F2 R2 U2 R2 U",
+          "algs": ["(R U R') U' (R U R')", "y M' (U' L' U L) (U' L' U l)"],
+          "group": "Corner in the slot"
+        },
+        {
+          "id": 32,
+          "scramble": [
+            "D' F2 U' F U2 F U2 F2 U' F2 D' L2 U' L2 D2",
+            "R U F R2 F' R' D R2 D' F2 U F2 U"
+          ],
+          "imgScramble": "R U F R2 F' R' D R2 D' F2 U F2 U'",
+          "algs": ["y (L' U' L) U (L' U' L)", "M' (U R U' R') (U R U' r')"],
+          "group": "Corner in the slot"
+        },
+        {
+          "id": 33,
+          "scramble": [
+            "U R B2 D' R' D R D B2 D L2 F2 U' F2 L2 D2 R2",
+            "U2 R2 B' R' B U2 R' U2"
+          ],
+          "imgScramble": "U2 R2 B' R' B U2 R'",
+          "algs": ["(R U' R') U (R U' R')"],
+          "group": "Corner in the slot"
+        },
+        {
+          "id": 34,
+          "scramble": [
+            "U F' U' F U2 R U' R' U'",
+            "F U' L2 B' U' B U' L2 U F2 U' F2 L2 U L2 U2"
+          ],
+          "imgScramble": "U F' U' F U2 R U' R'",
+          "algs": ["y (L' U L) U' (L' U L)"],
+          "group": "Corner in the slot"
+        },
+        {
+          "id": 35,
+          "scramble": [
+            "U2 R U' R' F R' F' R U",
+            "U L U F2 U' L' U F2 U F2 U F2 U' F2 U2"
+          ],
+          "imgScramble": "U2 R U' R' F R' F' R U",
+          "algs": ["U' (R' F R F') (R U R')", "(R' F' R) (U R U' R') F"],
+          "group": "Corner in the slot"
+        },
+        {
+          "id": 36,
+          "scramble": [
+            "F' U' F U R U R' U'",
+            "F' R2 D2 L2 B' D R2 U2 F2 R2 D2 L2 B2 D' R2"
+          ],
+          "imgScramble": "F' U' F U R U R' U'",
+          "algs": ["y U (L F' L' F) (L' U' L)", "y (L F L') (U' L' U L) F'"],
+          "group": "Corner in the slot"
+        }
+      ],
+      "Section 1C": [
+        {
+          "id": 37,
+          "scramble": ["U2 L D' L D' R' B2 R' U F2 R2 D2 R2 F2 D2 R2 U' L2"],
+          "imgScramble": "U2 L D' L D' R' B2 R' U F2 R2 D2 R2 F2 D2 R2 U' L2",
+          "algs": [
+            "(R U' R') U (R U2 R' U R U' R')",
+            "y' (L' U L) U (L' U' L U2' L' U L)"
+          ],
+          "group": "Both pieces are in the correct slot."
+        },
+        {
+          "id": 38,
+          "scramble": ["B' D B' D B D2 B' U' R2 B2 L2 D' F2 B2 D2 B2 L2"],
+          "imgScramble": "B' D B' D B D2 B' U' R2 B2 L2 D' F2 B2 D2 B2 L2",
+          "algs": [
+            "y' (L' U L) U' (L' U2' L U' L' U L)",
+            "(R U' R') U' (R U R' U2 R U' R')"
+          ],
+          "group": "Both pieces are in the correct slot."
+        },
+        {
+          "id": 39,
+          "scramble": [
+            "U R B U2 B' R B U B' R2 U' B2 D L2 U' L2 B2 D'",
+            "D2 L2 B2 R' F D' R F' D2 L2 B2 D B2 D B2 L2 U B2"
+          ],
+          "imgScramble": "D2 L2 B2 R' F D' R F' D2 L2 B2 D B2 D B2 L2 U B2",
+          "algs": ["(R U' R') (F' L' U2 L F)", "y (F R U2' R' F') (L' U' L)"],
+          "group": "Both pieces are in the correct slot."
+        },
+        {
+          "id": 40,
+          "scramble": ["U R U' R' F' L' U2 L F U2"],
+          "imgScramble": "U R U' R' F' L' U2 L F U2",
+          "algs": ["y (L' U L) (F R U2' R' F')", "y (L' U L) (F R U2' R' F')"],
+          "group": "Both pieces are in the correct slot."
+        },
+        {
+          "id": 41,
+          "scramble": [
+            "U R' F R F' U2 R U R U F2 U' F2 D R2 D' R2 U' R2",
+            "U2 L D' F2 D L' U F' U2 F' U B2 U' F2 U B2 R2 U' R2 U2"
+          ],
+          "imgScramble": "U R' F R F' U2 R U R U F2 U' F2 D R2 D' R2 U' R2",
+          "algs": ["R2' U2' F R2 F' U2' R' U R'", "y L2 U2 F' L2' F U2 L U' L"],
+          "group": "Both pieces are in the correct slot."
+        }
+      ]
+    }
+  },
+  "advanced": {}
+}

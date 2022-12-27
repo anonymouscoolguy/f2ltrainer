@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/static/favicon.svg" type="image/svg+xml" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+
+    <!-- Custom JS -->
+    <script src="index.js"></script>
+
+    <!-- Custom CSS -->
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+    </style>
+
+    <title>F2L Trainer</title>
+  </head>
+  <body class="container">
+    <div
+      class="h-100 d-flex flex-column align-items-center justify-content-center"
+    >
+      <!-- Hero Section -->
+      <h1>
+        <a
+          href="https://www.youtube.com/c/CubeHead"
+          target="_blank"
+          class="text-reset text-decoration-none"
+          >Yoo</a
+        >! ✌️
+      </h1>
+      <p>
+        This is a simple F2L Trainer based on
+        <a href="https://bit.ly/bestf2l" target="_blank"
+          >JPerm's F2L algortihms sheet</a
+        >
+        and can be thought of as an unofficial extension to
+        <a href="https://jperm.net/">JPerm's CFOP trainer</a>.
+      </p>
+      <p>
+        Select the section of F2L algorithms you are currently learning:
+        <span class="text-success">#TeamTingboy</span>
+      </p>
+      <!-- F2L Alg Sets Section -->
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-sm col-lg-2">
+          <div class="card" onclick="changeToSection('basic')">
+            <img
+              src="http://cube.rider.biz/visualcube.php?fmt=svg&size=150&pzl=3&stage=f2l&alg=yRUR%27U%27"
+              class="card-img-top"
+              alt="Basic F2L image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Section 1: Basic F2L</h5>
+              <p class="card-text">
+                41 basic cases. Most are solved intuitively.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm col-lg-2">
+          <div class="card" onclick="changeToSection('advanced')">
+            <img
+              src="http://cube.rider.biz/visualcube.php?fmt=svg&size=150&pzl=3&stage=f2l_2&alg=yy%27U%27L2DR2BDLDB%27D%27L%27DB2DR2L2UR2UF2y%27"
+              class="card-img-top"
+              alt="Advanced F2L image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Section 2: Advanced F2L</h5>
+              <p class="card-text">
+                36 advanced cases: 1 piece is in the wrong slot.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm col-lg-2">
+          <div class="card" onclick="changeToSection('expert')">
+            <img
+              src="http://cube.rider.biz/visualcube.php?fmt=svg&size=150&pzl=3&stage=f2l_2&alg=yy%27ULFL%27U%27LF%27R2L%27F2R2F2UF2U%27F2U%27F2U%27y%27"
+              class="card-img-top"
+              alt="Expert F2L image"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Section 3: Expert F2L</h5>
+              <p class="card-text">
+                Both pieces are in a slot (only the easy cases).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
