@@ -19,6 +19,13 @@ function changeToSection(section) {
   loadSection();
 }
 
+function backToHomePage() {
+  let url = new URL(window.location.href);
+  url.searchParams.delete("section");
+  window.history.replaceState(null, null, url);
+  location.reload();
+}
+
 function loadSection() {
   let url = new URL(window.location.href);
   let section = url.searchParams.get("section");
@@ -54,6 +61,7 @@ function renderSectionHTML(section) {
         <div id="pageContent">
           <h1>${sectionData.name}</h1>
           <p>${sectionData.description}</p>
+          <button class="btn btn-sm btn-primary mb-2" onclick="backToHomePage()"><i class="bi bi-arrow-left"></i> Go back</button>
         </div>
       </main>
       `;
