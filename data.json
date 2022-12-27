@@ -388,5 +388,14 @@
       ]
     }
   },
-  "advanced": {}
+  "advanced": {
+    "name": "🚧 Work in progress",
+    "description": "Yoo fellow cubers! ✌️ <p>I have as of now solely developed the trainer for the first section of the algortihms. This is because I don't know if someone finds this project helpful. If this tool gets positive feedback, I am more than happy to continue the development of this little project. 😁</p> <p>I wish you the best PLL skips! 😜</p>",
+    "cases": []
+  },
+  "expert": {
+    "name": "🚧 Work in progress",
+    "description": "Yoo fellow cubers! ✌️ <p>I have as of now solely developed the trainer for the first section of the algortihms. This is because I don't know if someone finds this project helpful. If this tool gets positive feedback, I am more than happy to continue the development of this little project. 😁</p> <p>I wish you the best PLL skips! 😜</p>",
+    "cases": []
+  }
 }
