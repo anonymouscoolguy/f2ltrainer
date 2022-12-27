@@ -83,7 +83,7 @@ function tableHTML(cases) {
         <thead>
             <th>ID</th>
             <th>Case</th>
-            <th>Algorithm</th>
+            <th>Algorithms</th>
             <th>Group</th>
             <th>Train</th>
         </thead>
