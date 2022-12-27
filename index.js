@@ -101,11 +101,16 @@ function tableHTML(cases) {
         }
       });
     }
+    // Algorithms HTML
+    let algHTML = "";
+    element.algs.forEach((alg) => {
+      algHTML += `<p>${alg}</p>`;
+    });
     table += `
     <tr>
         <td>${element.id}</td>
         <td> <img src="http://cube.rider.biz/visualcube.php?fmt=svg&size=150&pzl=3&stage=f2l&alg=y${element.imgScramble}" width="90"> </td>
-        <td>${element.algs[0]}</td>
+        <td>${algHTML}</td>
         <td>${element.group}</td>
         <td> <input type="checkbox" onchange="handleTrainCheckBoxChange(this, ${element.id})" ${checked}> </td>
     </tr>`;
